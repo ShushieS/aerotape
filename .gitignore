@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# NeoForge dev runs
+run/
+runs/
+
+# IDEs
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+out/
+*.iml

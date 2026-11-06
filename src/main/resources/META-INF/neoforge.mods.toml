@@ -1,0 +1,20 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "aerotape"
+version = "1.0.0"
+displayName = "Flex Tape Patches"
+description = '''tape for printer server before he come back'''
+displayTest = "IGNORE_ALL_VERSION"
+
+[[mixins]]
+config = "aerotape.mixins.json"
+
+[[dependencies.aerotape]]
+modId = "sable"
+type = "optional"
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "SERVER"
