@@ -18,3 +18,10 @@ type = "optional"
 versionRange = "[0,)"
 ordering = "AFTER"
 side = "SERVER"
+
+[[dependencies.aerotape]]
+modId = "simulated"
+type = "optional"
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "SERVER"

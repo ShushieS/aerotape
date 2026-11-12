@@ -3,6 +3,6 @@
   "minVersion": "0.8",
   "package": "riley.aerosmp.tape.mixin",
   "compatibilityLevel": "JAVA_21",
-  "server": ["RapierFfmBridgeV2Mixin", "CommandSpamMixin", "BookSavestateMixin"],
+  "server": ["RapierFfmBridgeV2Mixin", "CommandSpamMixin", "BookSavestateMixin", "PhysicsStaffDragPacketMixin", "PhysicsStaffActionPacketMixin"],
   "injectors": {"defaultRequire": 0}
 }

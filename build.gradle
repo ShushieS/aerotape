@@ -9,8 +9,18 @@ base.archivesName = 'aerotape'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
+// Compileonly stubs of classes from other mods (Veil, Simulated) that mixin handlers need to reference
+sourceSets {
+    stubs
+}
+
 neoForge {
     version = '21.1.229'
+    addModdingDependenciesTo sourceSets.stubs
+}
+
+dependencies {
+    compileOnly sourceSets.stubs.output
 }
 
 tasks.withType(JavaCompile).configureEach {
